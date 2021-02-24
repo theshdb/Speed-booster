@@ -4,7 +4,7 @@ from tkinter import *
 
 root = Tk()
 root.title("PC Speed Booster")
-paths = ["C:\\Windows\\prefetch", "C:\\Windows\\Temp", "C:\\Users\\shada\\AppData\\Local\\Temp", "C:\$Recycle.Bin"]
+paths = ["C:\\Windows\\prefetch", "C:\\Windows\\Temp", "C:\\Users\\Shada\\AppData\\Local\\Temp"]
 
 def action():
     for path in paths:
