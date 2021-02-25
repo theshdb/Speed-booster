@@ -5,11 +5,10 @@ from tkinter import *
 
 def action():
     user = inputtxt.get("1.0", "end-1c")
-    print("C:\\Users\\" + user + "\\AppData\\Local\\Temp")
-    print("In action")
+    #print("C:\\Users\\" + user + "\\AppData\\Local\\Temp")
 
     paths = ["C:\\Windows\\prefetch", "C:\\Windows\\Temp", "C:\\Users\\" + user + "\\AppData\\Local\\Temp"]
-    
+
     for path in paths:
         dirContent = os.listdir(path)
         for file in dirContent:
@@ -42,7 +41,7 @@ inputtxt = Text(frame, height = 1.8,
 inputtxt.pack()
 inputtxt.place(x=150, y=69)
 
-labelName = Label(frame, text="PC Name", font = ('Helvetica', 12, 'bold'), height= 2,
+labelName = Label(frame, text="User Name", font = ('Helvetica', 12, 'bold'), height= 2,
                     bg="ghostWhite", fg="#435868")
 labelName.pack()
 labelName.place(x=50, y=69)
