@@ -51,7 +51,7 @@ inputtxt = Text(frame, height = 1.8,
 inputtxt.pack()
 inputtxt.place(x=150, y=69)
 
-labelName = Label(frame, text="PC Name", font = ('Helvetica', 12, 'bold'), height= 1,
+labelName = Label(frame, text="User Name", font = ('Helvetica', 12, 'bold'), height= 1,
                     bg="ghostWhite", fg="#435868")
 labelName.pack()
 labelName.place(x=50, y=69)
